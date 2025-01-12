@@ -39,7 +39,8 @@ from typing import List
 
 class Solution:
     def findWordsContaining(self, words: List[str], x: str) -> List[int]:
-        return [i for (i,word) in enumerate(words) if x in word]
+        return [i for (i, word) in enumerate(words) if x in word]
 
-Solution().findWordsContaining(words=["leet", "code"], x="e")
-Solution().findWordsContaining(words=["abc", "bcd", "aaaa", "cbc"], x="z")
+
+Solution().findWordsContaining(words=['leet', 'code'], x='e')
+Solution().findWordsContaining(words=['abc', 'bcd', 'aaaa', 'cbc'], x='z')
